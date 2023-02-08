@@ -7,6 +7,7 @@ const ref = collection(db,"post");
 const AddPost = () =>{
     const [body,setBody] = useState("");
 
+    
 
     const handleSubmit = useCallback((e)=>{
         e.preventDefault();

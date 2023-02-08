@@ -5,6 +5,7 @@ import SignUp from "./pages/SignUp";
 import ForgotPassword from "./pages/ForgotPassword";
 import MainLayout from "./components/MainLayout";
 import AuthLayout from "./components/AuthLayout";
+import Update from "./pages/Update";
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
         <Routes>
           <Route path="/" element={<MainLayout />}>
             <Route path="/" element={<Home/>}/>
+            <Route path="/update" element={<Update />}/>
           </Route>
           
           <Route path="/" element={<AuthLayout />}>
